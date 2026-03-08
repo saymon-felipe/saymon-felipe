@@ -13,8 +13,20 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: github-metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: saymon-felipe
-          template: classic
           base: repositories
           plugin_repositories: yes
+          config_theme: transparent
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-langs.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: saymon-felipe
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 8
+          config_theme: transparent
