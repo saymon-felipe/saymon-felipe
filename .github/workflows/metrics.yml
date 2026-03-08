@@ -19,6 +19,7 @@ jobs:
           base: repositories
           plugin_repositories: yes
           config_theme: transparent
+          config_colors: "{\n  \"color_0\": \"#58A6FF\",\n  \"color_1\": \"#C3D1D9\",\n  \"color_2\": \"#58A6FF\"\n}\n"
 
       - uses: lowlighter/metrics@latest
         with:
@@ -30,3 +31,48 @@ jobs:
           plugin_languages_ignored: html, css
           plugin_languages_limit: 8
           config_theme: transparent
+          config_colors: "{\n  \"color_0\": \"#58A6FF\",\n  \"color_1\": \"#C3D1D9\",\n  \"color_2\": \"#58A6FF\"\n}\n"
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-pin-gourmetech.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: saymon-felipe
+          base: ""
+          plugin_pin: yes
+          plugin_pin_repositories: saymon-felipe/gourmetech
+          config_theme: transparent
+          config_colors: "{\n  \"color_0\": \"#58A6FF\",\n  \"color_1\": \"#C3D1D9\",\n  \"color_2\": \"#58A6FF\"\n}\n"
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-pin-kadem.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: saymon-felipe
+          base: ""
+          plugin_pin: yes
+          plugin_pin_repositories: saymon-felipe/kadem
+          config_theme: transparent
+          config_colors: "{\n  \"color_0\": \"#58A6FF\",\n  \"color_1\": \"#C3D1D9\",\n  \"color_2\": \"#58A6FF\"\n}\n"
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-pin-agendaspro.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: saymon-felipe
+          base: ""
+          plugin_pin: yes
+          plugin_pin_repositories: saymon-felipe/agendaspro
+          config_theme: transparent
+          config_colors: "{\n  \"color_0\": \"#58A6FF\",\n  \"color_1\": \"#C3D1D9\",\n  \"color_2\": \"#58A6FF\"\n}\n"
+
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-pin-kaptur.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: saymon-felipe
+          base: ""
+          plugin_pin: yes
+          plugin_pin_repositories: saymon-felipe/kaptur
+          config_theme: transparent
+          config_colors: "{\n  \"color_0\": \"#58A6FF\",\n  \"color_1\": \"#C3D1D9\",\n  \"color_2\": \"#58A6FF\"\n}\n"
