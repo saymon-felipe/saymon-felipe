@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Saymon+Felipe+|+Software+Engineer;Fundador+da+Kinetic+Solutions+(KSI);Autor+de+A+Última+Passageira;Transformando+lógica+em+produtos+escaláveis" alt="Typing SVG - Títulos" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Saymon+Felipe+|+Software+Engineer;Fundador+da+Kinetic+Solutions+(KSI);Criador+do+Compra+Rápida;Transformando+lógica+em+produtos+escaláveis" alt="Typing SVG - Títulos" />
 </div>
 
 <br>
@@ -10,9 +10,9 @@
     &nbsp;<b>KSI - Kinetic Solutions</b>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://kadem.netlify.app" target="_blank">
-    <img src="https://kadem.netlify.app/favicon.ico" alt="Badge Kadem" width="20" height="20" align="center" />
-    &nbsp;<b>Kadem</b>
+  <a href="https://appcomprarapida.com.br" target="_blank">
+    <img src="https://appcomprarapida.com.br/assets/img/favicon-32x32.png" alt="Badge Compra Rápida" width="20" height="20" align="center" />
+    &nbsp;<b>Compra Rápida</b>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/saymonflima/" target="_blank">
